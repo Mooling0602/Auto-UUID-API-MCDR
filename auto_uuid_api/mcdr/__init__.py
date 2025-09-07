@@ -3,6 +3,7 @@ import auto_uuid_api.mcdr.runtime as runtime
 from mcdreforged.api.all import PluginServerInterface
 from auto_uuid_api.mcdr.config import load_config
 from auto_uuid_api.mcdr.utils import get_server_dir
+from auto_uuid_api import set_server_dir
 
 
 def import_command(server: PluginServerInterface):
@@ -22,7 +23,7 @@ def on_load(server: PluginServerInterface, _prev_module):
     import_command(server)
     server_dir = get_server_dir(server)
     if server_dir:
-        runtime.server_dir = server_dir
+        set_server_dir(server_dir)
     else:
         server.logger.warning("auto_uuid_api.disable_locally_features")
         runtime.__disable_locally_features = True

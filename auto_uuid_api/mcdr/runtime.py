@@ -6,4 +6,3 @@ __plugin_psi: Optional[PluginServerInterface] = None
 __disable_locally_features: bool = False
 config_dir: Optional[str] = None
 config: Optional[DefaultConfig] = None
-server_dir: Optional[str] = None

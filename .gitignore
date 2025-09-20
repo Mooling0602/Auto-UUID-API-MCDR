@@ -1,6 +1,7 @@
 __pycache__/
 *.pyc
-pyproject.toml
-.python-version
 .venv/
+.vscode/
+.idea/
+.pyre/
 uv.lock

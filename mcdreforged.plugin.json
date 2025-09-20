@@ -1,6 +1,6 @@
 {
     "id": "auto_uuid_api",
-    "version": "0.0.1",
+    "version": "0.1.0",
     "name": "Auto UUID API",
     "description": {
         "en_us": "Automatically retrieve player profile information based on local data and connected APIs.",
@@ -9,7 +9,8 @@
     "author": "Mooling0602",
     "link": "https://github.com/Mooling0602/Auto-UUID-API-MCDR",
     "dependencies": {
-        "mcdreforged": ">=2.14.0"
+        "mcdreforged": ">=2.14.0",
+        "python": ">=3.11"
     },
     "entrypoint": "auto_uuid_api.mcdr",
     "resources": [

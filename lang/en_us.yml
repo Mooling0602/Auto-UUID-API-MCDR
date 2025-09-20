@@ -1,0 +1,18 @@
+auto_uuid_api:
+  clean_config:
+    confirm: If you want to clean plugin's config, please execute this command again.
+    failed: Failed to remove config folder, errors may occurred!
+    success: Config folder removed!
+  config:
+    error: Error when loading config!
+  config_fine:
+    Refresh config successfully!
+  dependencies_detector: Dependencies Detector
+  detected_meowtiwhitelist: Detected Meowtiwhitelist, but related support is still in development, please wait for further updates of this plugin...
+  disable_locally_features: Could not find server data directory, will disable locally search features!
+  enabling_meowtiwhitelist: Will enable support module for Meowtiwhitelist.
+  load_config_normally: Load config normally.
+  loaded: Auto UUID API loaded.
+  not_implemented: Related features is not implemented yet...
+  permission_denied: Permission denied!
+  unloaded: Auto UUID API unloaded.

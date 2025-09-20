@@ -1,0 +1,18 @@
+auto_uuid_api:
+  clean_config:
+    confirm: 若要删除插件配置，请再执行一遍此命令！
+    failed: 无法删除配置目录，可能发生了错误！
+    success: 配置目录已删除！
+  config:
+    error: 配置加载错误！
+  config_fine:
+    成功刷新配置！
+  dependencies_detector: 检查依赖
+  detected_meowtiwhitelist: 检测到 Meowtiwhitelist 插件，但相关支持仍在开发中，请等待插件后续版本更新……
+  disable_locally_features: 找不到服务端数据目录，将禁用本地搜索功能！
+  enabling_meowtiwhitelist: 将启用对 Meowtiwhitelist 的支持模块
+  load_config_normally: 配置读取正常～
+  loaded: Auto UUID API 加载完成！
+  not_implemented: 相关功能暂未实现……
+  permission_denied: 权限不足！
+  unloaded: Auto UUID API 已卸载！

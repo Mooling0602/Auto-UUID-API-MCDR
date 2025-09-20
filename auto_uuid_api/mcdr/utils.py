@@ -1,16 +1,15 @@
 import os
 import psutil
 
-from typing import List, Tuple, Optional
 from mcdreforged.api.types import PluginServerInterface
 
 
-def get_server_dir(server: PluginServerInterface) -> Optional[str]:
+def get_server_dir(server: PluginServerInterface) -> str | None:
     # 首先搜索白名单文件，然后搜索用户缓存
     target_files = ["whitelist.json", "usercache.json"]
     target_directory = server.get_mcdr_config().get("working_directory", "server")
 
-    def _check_needed_files(files: List[str], directory: str) -> Tuple[bool, bool]:
+    def _check_needed_files(files: list[str], directory: str) -> tuple[bool, bool]:
         _target_count = len(files)
         _matched_count = 0
         for i in files:

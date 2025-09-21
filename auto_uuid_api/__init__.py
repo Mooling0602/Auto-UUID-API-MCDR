@@ -41,7 +41,7 @@ class LocallyQuery:
             return None
 
     def get_content_type(
-        self, content: str, regex: str | None = r"\w{3,16}"
+        self, content: str, regex: str | None = r"\.?\w{3,16}"
     ) -> Literal["get_player", "invalid", "get_uuid"]:
         if is_uuid(content):
             return "get_player"
